@@ -88912,6 +88912,8 @@ Sends text to the pipeline's TTS service as a standalone utterance, independent 
   Whether the spoken text is appended to the LLM context.
 </ParamField>
 
+Set `interruptible=False` on the frame to preserve its synthesis and the generated audio and text through interruptions.
+
 ## Transport Message Frames
 
 ### OutputTransportMessageFrame
